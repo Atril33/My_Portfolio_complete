@@ -13,7 +13,6 @@ body {
   background: #efefef;
 }
 
-
 .container {
   background: #fff;
   height: 700px;
@@ -38,7 +37,7 @@ header {
 }
 
 .menu_list {
- display: none;
+  display: none;
 }
 
 .link_list {
@@ -46,7 +45,7 @@ header {
   font-size: 15px;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
-  margin: 0px 20px;
+  margin: 0 20px;
 }
 
 nav {
@@ -75,13 +74,14 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
-  margin-left: 20px;  
+  margin-left: 20px;
   color: #172b4d;
 }
 
 .heading span {
   display: block;
 }
+
 .bio {
   margin-left: 20px;
   font-family: 'Poppins', sans-serif;
@@ -93,6 +93,7 @@ nav {
 .links {
   margin: 10px 20px;
 }
+
 .links h3 a {
   margin: 5px 0;
   color: #7f8cff;
@@ -107,7 +108,7 @@ nav {
 
 .links i {
   margin: 10px 5px 0 0;
-  color:  #505f79;
+  color: #505f79;
 }
 
 .Project {
@@ -126,7 +127,6 @@ nav {
   border: 1px solid #def1e6;
   padding: 16px;
   display: flex;
-  border: 1px solid #def1e6;
   justify-content: center;
   flex-direction: column;
 }
@@ -139,7 +139,6 @@ nav {
   border: 1px solid #def1e6;
   padding: 16px;
   display: flex;
-  border: 1px solid #def1e6;
   justify-content: center;
   flex-direction: column;
 }
@@ -161,7 +160,7 @@ nav {
 }
 
 .nam {
-  color: #172B4D;
+  color: #172b4d;
   font-weight: 700;
   font-size: 32px;
   font-family: 'Poppins', sans-serif;
@@ -181,9 +180,9 @@ nav {
   align-content: center;
 }
 
- .blk {
-    color: #000;
-  }
+.blk {
+  color: #000;
+}
 
 .title_des {
   width: 295px;
@@ -232,6 +231,7 @@ nav {
 .bcolor:hover {
   color: #fff;
 }
+
 .about {
   width: 100%;
   margin-top: 114px;
@@ -244,7 +244,7 @@ nav {
 }
 
 .about_one {
- margin: 100px 0 20px 0;
+  margin: 100px 0 20px 0;
 }
 
 .about_text {
@@ -269,7 +269,7 @@ nav {
 
 .link_to {
   margin: 10px 5px 0 0;
-  color:  #505f79;
+  color: #505f79;
   display: inline-block;
 }
 
@@ -282,12 +282,12 @@ nav {
 }
 
 .atb i {
- color: #7f8cff;
+  color: #7f8cff;
 }
 
 .link_to i {
   margin: 10px 5px 0 0;
-  color:  #505f79;
+  color: #505f79;
 }
 
 .button {
@@ -319,7 +319,7 @@ nav {
   flex-direction: column;
 }
 
-.skill_bar{
+.skill_bar {
   background: #f7f7f9;
   width: 95%;
   height: 50px;
@@ -395,7 +395,7 @@ nav {
   font-family: 'Poppins', sans-serif;
   font-size: 35px;
   color: #fff;
-  text-align:center;
+  text-align: center;
   margin-top: 80px;
   font-weight: 700;
 }
@@ -456,7 +456,7 @@ form {
   background: #2230d2;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   header {
     padding: 0 0;
     justify-content: space-between;
@@ -464,14 +464,13 @@ form {
   }
 
   .logo {
-   margin-left: 150px;
+    margin-left: 150px;
   }
 
   .menu_list {
     display: block;
     float: right;
     margin-right: 150px;
-    
   }
 
   nav {
@@ -500,7 +499,7 @@ form {
     width: 70%;
     font-size: 20px;
   }
-  
+
   .links {
     margin-left: 130px;
     font-size: 16px;
@@ -538,14 +537,14 @@ form {
   }
 
   .nam {
-   font-size: 40px;
+    font-size: 40px;
   }
 
   .list {
     font-size: 18px;
     font-weight: 400;
   }
-  
+
   .title_des {
     font-size: 16px;
     width: 100%;
@@ -566,44 +565,47 @@ form {
   .languages_skill {
     margin-top: 80px;
   }
-  
+
   .skill_bars {
     display: flex;
     flex-direction: row;
   }
 
   .skill_bar {
-  width: 122px;
-  height: 100px;
-  margin: 10px;
-  padding: 10px;
-  flex-direction: column;
+    width: 122px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
   }
 
   .skill_text {
     font-size: 15px;
     margin-left: 1px;
   }
+
   .work_skill h3 {
     font-size: 15px;
   }
-  
+
   .skill_bar img {
     width: 48px;
   }
+
   .work_skill img {
     width: 20px;
   }
 
-.bottom_image {
-  background-image: url('Images/bottom_big.png');
-  background-size: cover;
-  max-width: 100%;
-}
+  .bottom_image {
+    background-image: url('Images/bottom_big.png');
+    background-size: cover;
+    max-width: 100%;
+  }
 
-.contact_full {
-  text-align: center;
-}
+  .contact_full {
+    text-align: center;
+  }
+
   .contact_me {
     font-size: 40px;
   }
@@ -624,8 +626,8 @@ form {
     width: 50%;
     border-radius: 0;
   }
-  
+
   .submit {
     border-radius: 0;
   }
-} 
+}
