@@ -204,6 +204,7 @@ nav {
 }
 
 .bttn {
+  font-size: 18px;
   font-size: 17px;
   font-weight: 500;
   width: 100px;
@@ -299,6 +300,7 @@ nav {
   padding: 10px;
   border: 1px solid #396df2;
   border-radius: 8px;
+  color: #00ee;
   margin-top: 10px;
 }
 
