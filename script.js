@@ -1,18 +1,19 @@
+const myItem = document.getElementById('menuitems');
+const myMenu = document.getElementById('menuholder');
+const myMenuClose = document.getElementById('close_menu');
 
-let myItem = document.getElementById('menuitems');
-let myMenu = document.getElementById('menuholder');
-let myBars = document.querySelector('.three');
-
-myMenu.addEventListener('click', mobileMenu);
 function mobileMenu() {
-    if(myItem.style.display == "none") {
-        myItem.style.display = "block";
-        myBars.style.background = "white";
-        
-    } else {
-        myItem.style.display = "none";
-        myBars.style.background = "#6070ff";
-    }
+  if (myItem.style.display === 'none') {
+    myItem.style.display = 'block';
+  } else {
+    myItem.style.display = 'none';
+  }
 }
-  
-    
+myMenu.addEventListener('click', mobileMenu);
+
+function menuClose() {
+  if (myItem.style.display === 'block') {
+    myItem.style.display = 'none';
+  }
+}
+myMenuClose.addEventListener('click', menuClose);
