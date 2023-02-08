@@ -233,7 +233,9 @@ nav {
   padding: 10px;
   border: 1px solid #396df2;
   border-radius: 8px;
+  color: #396df2;
   margin-top: 10px;
+  transition: 0.1s;
 }
 
 .bttn:hover {
@@ -472,11 +474,13 @@ form {
   cursor: pointer;
 }
 
+.pop_button,
 .submit:hover {
   background: #6070ff;
   color: #fff;
 }
 
+.pop_button,
 .submit:active {
   background: #2230d2;
 }
@@ -667,5 +671,122 @@ form {
 
   .submit {
     border-radius: 0;
+  }
+}
+
+#myPopFull {
+  display: none;
+}
+
+.myFullProject {
+  width: 100%;
+  height: 100%;
+  background: #30313371;
+  display: flex;
+  justify-content: center;  
+}
+
+.My_container {
+  width: 80%;
+  height: auto;
+  background: #ffff;
+  border-radius: 25px;
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 10px 8px 119px 200px rgba(0, 0, 0, 0.45);
+}
+
+.cross_img {
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+.My_Text {
+  width: 100%;
+}
+
+.My_Text h1 {
+  color: #091e42;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.list_holder,
+.lists_items {
+  display: inline-block;
+  margin: 5px 25px 5px 0;
+  font-size: 15px;
+  color: #344563;
+}
+
+.myPop_img {
+  width: auto;
+  height: 700px;
+}
+
+.myPop_des {
+  font-size: 16px;
+  color: #344563;
+  margin: 10px 0;
+}
+
+.myCode_lan,
+.lang_list {
+  display: inline-block;
+}
+
+.lang_list {
+  margin: 5px 25px 5px 0;
+  background: #ebebff;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6070ff;
+  padding: 6px 12px;
+  border-radius: 10px;
+  float: right;
+}
+
+.my_btns {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pop_button {
+  padding: 8px 20px;
+  background: transparent;
+  color: #6070ff;
+  border: 2px solid #6070ff;
+  border-radius: 8px;
+  margin: 5px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .my_btns {
+    justify-content: center;
+  }
+
+  .cross_img {
+    width: 20px;
+    cursor: pointer;
+  }
+
+  .myPop_img {
+    width: auto;
+    height: 300px;
+  }
+
+  .My_container {
+    left: 6.5%;
   }
 }
