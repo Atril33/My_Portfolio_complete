@@ -167,3 +167,21 @@ function menuClose1() {
   }
 }
 popMenuClose.addEventListener('click', menuClose1);
+
+/// my contact form ////
+
+const myInput = document.querySelector('.emaill');
+const mySubmit = document.querySelectorAll('.submit');
+const myTextShow = document.getElementById('erormessage');
+
+function myEmailChecker(event) {
+  const myEmailTest = /[A-Z]/.test(myInput.value);
+  if (myEmailTest === true) {
+    myTextShow.innerText = 'All letters in the email must be lowercase';
+    event.preventDefault();
+  } else {
+    myTextShow.innerText = '';
+  }
+}
+
+mySubmit[0].addEventListener('click', myEmailChecker);

@@ -783,6 +783,12 @@ form {
   background: #2230d2;
 }
 
+#erormessage {
+  color: #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px 0;
+}
+
 @media screen and (max-width: 768px) {
   .my_btns {
     justify-content: center;
@@ -811,4 +817,5 @@ form {
     margin: 9px 7px;
     float: left;
   }
+ 
 }
