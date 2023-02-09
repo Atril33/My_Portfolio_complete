@@ -167,15 +167,3 @@ function menuClose1() {
   }
 }
 popMenuClose.addEventListener('click', menuClose1);
-
-/// my contact form ////
-
-/* const myInput = document.getElementById("input").value;
-const mySubmit = document.querySelectorAll('.submit');
-const myTextShow = document.getElementById('erormessage');
-
-mySubmit[0].addEventListener('click', function myClick() {
-  if(myInput[0] > 1) {
-    myTextShow.innerText = "How are you bro";
-  }
-}) */
