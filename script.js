@@ -27,24 +27,33 @@ const projectDatiels = [
     projectImage: 'Images/Image_1.png',
     projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
     projectLanguages: ['Css', 'Html', 'Javascript'],
-    projectLive: '#',
-    projectSource: '#',
-    liveIcons: 'GitHub_icon.png',
-  },
-  {
-    closeImage: 'Images/close_menu_black.png',
+    projectLive: 'https://atril33.github.io/My_Portfolio_complete/',
+    projectSource: 'https://github.com/Atril33/My_Portfolio_complete/tree/Popup_Windows',
+    liveSource: '<i class="fa-brands fa-github"></i>',
+    liveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
+    liveText: 'See Live',
+    sourceText: 'See Source',
   },
   {
     name: 'Multi-Post Stories',
     projectImage: 'Images/Image_2.png',
+    projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
+    projectLanguages: ['Css', 'Html', 'Javascript'],
   },
   {
     name: 'Facebook 360',
     projectImage: 'Images/Image_3.png',
+    projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
+    projectLanguages: ['Css', 'Html', 'Javascript'],
   },
   {
     name: 'Uber Navigation',
     projectImage: 'Images/Image_4.png',
+    projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
+    projectLanguages: ['Css', 'Html', 'Javascript'],
+  },
+  {
+    closeImage: 'Images/close_menu_black.png',
   },
 ];
 
@@ -60,7 +69,7 @@ fullProjectPop.append(projectPop);
 const myCloseImg = document.createElement('img');
 myCloseImg.id = 'close_menu1';
 myCloseImg.classList = 'cross_img';
-myCloseImg.src = `${projectDatiels[1].closeImage}`;
+myCloseImg.src = `${projectDatiels[4].closeImage}`;
 projectPop.appendChild(myCloseImg);
 
 const nameText = document.createElement('div');
@@ -125,71 +134,32 @@ projectPop.appendChild(myButtons);
 
 const a = document.createElement('a');
 a.classList = 'pop_button';
-a.innerText = 'See Live';
+a.innerHTML = `${projectDatiels[0].liveText}  ${projectDatiels[0].liveIcons}`;
 a.href = `${projectDatiels[0].projectLive}`;
 myButtons.appendChild(a);
 
 const a1 = document.createElement('a');
 a1.classList = 'pop_button';
-a1.innerText = 'See Source';
-a1.href = `${projectDatiels[0].projectLive}`;
+a1.innerHTML = `${projectDatiels[0].sourceText}  ${projectDatiels[0].liveSource}`;
+a1.href = `${projectDatiels[0].projectSource}`;
 myButtons.appendChild(a1);
 
 const myPopProjects = document.querySelectorAll('.bttn');
 const myPopBox = document.getElementById('myPopFull');
 const popMenuClose = document.getElementById('close_menu1');
 
-function popBox() {
-  if (myPopBox.style.display === 'none') {
-    myPopBox.style.display = 'block';
-    myImage.src = `${projectDatiels[0].projectImage}`;
-    textInner.innerText = `${projectDatiels[0].name}`;
-    window.scroll(0, 1);
-  } else {
-    myPopBox.style.display = 'none';
-  }
+for (let i = 0; i < 4; i += 1) {
+  myPopProjects[i].addEventListener('click', () => {
+    if (myPopBox.style.display === 'none') {
+      myPopBox.style.display = 'block';
+      myImage.src = `${projectDatiels[i].projectImage}`;
+      textInner.innerText = `${projectDatiels[i].name}`;
+      window.scroll(0, 1);
+    } else {
+      myPopBox.style.display = 'none';
+    }
+  });
 }
-
-myPopProjects[0].addEventListener('click', popBox);
-
-function popBox1() {
-  if (myPopBox.style.display === 'none') {
-    myPopBox.style.display = 'block';
-    myImage.src = `${projectDatiels[2].projectImage}`;
-    textInner.innerText = `${projectDatiels[2].name}`;
-    window.scroll(0, 1);
-  } else {
-    myPopBox.style.display = 'none';
-  }
-}
-
-myPopProjects[1].addEventListener('click', popBox1);
-
-function popBox2() {
-  if (myPopBox.style.display === 'none') {
-    myPopBox.style.display = 'block';
-    myImage.src = `${projectDatiels[3].projectImage}`;
-    textInner.innerText = `${projectDatiels[3].name}`;
-    window.scroll(0, 1);
-  } else {
-    myPopBox.style.display = 'none';
-  }
-}
-
-myPopProjects[2].addEventListener('click', popBox2);
-
-function popBox3() {
-  if (myPopBox.style.display === 'none') {
-    myPopBox.style.display = 'block';
-    myImage.src = `${projectDatiels[4].projectImage}`;
-    textInner.innerText = `${projectDatiels[4].name}`;
-    window.scroll(0, 1);
-  } else {
-    myPopBox.style.display = 'none';
-  }
-}
-
-myPopProjects[3].addEventListener('click', popBox3);
 
 function menuClose1() {
   if (myPopBox.style.display === 'block') {
@@ -197,3 +167,15 @@ function menuClose1() {
   }
 }
 popMenuClose.addEventListener('click', menuClose1);
+
+/// my contact form ////
+
+/* const myInput = document.getElementById("input").value;
+const mySubmit = document.querySelectorAll('.submit');
+const myTextShow = document.getElementById('erormessage');
+
+mySubmit[0].addEventListener('click', function myClick() {
+  if(myInput[0] > 1) {
+    myTextShow.innerText = "How are you bro";
+  }
+}) */

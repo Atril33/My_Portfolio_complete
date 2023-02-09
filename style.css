@@ -474,13 +474,11 @@ form {
   cursor: pointer;
 }
 
-.pop_button,
 .submit:hover {
   background: #6070ff;
   color: #fff;
 }
 
-.pop_button,
 .submit:active {
   background: #2230d2;
 }
@@ -745,12 +743,12 @@ form {
 }
 
 .lang_list {
-  margin: 5px 25px 5px 0;
+  margin: 9px 38px 5px 0;
   background: #ebebff;
   font-weight: 500;
   font-size: 12px;
   color: #6070ff;
-  padding: 6px 12px;
+  padding: 4px 12px;
   border-radius: 10px;
   float: right;
 }
@@ -766,14 +764,29 @@ form {
   padding: 8px 20px;
   background: transparent;
   color: #6070ff;
-  border: 2px solid #6070ff;
-  border-radius: 8px;
-  margin: 5px 15px;
+  border: 1.5px solid #6070ff;
+  border-radius: 6px;
+  margin: 10px 12px;
+  text-align-last: justify;
+}
+
+.pop_button:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.pop_button:active {
+  background: #2230d2;
 }
 
 @media screen and (max-width: 768px) {
   .my_btns {
     justify-content: center;
+  }
+
+  .pop_button {
+    font-size: 12px;
+    padding: 6px 25px;
   }
 
   .cross_img {
@@ -789,5 +802,9 @@ form {
   .My_container {
     left: 6.5%;
   }
+
+  .lang_list {
+    margin: 9px 7px;
+    float: left;
+  }
 }
-git
