@@ -248,6 +248,10 @@ nav {
   color: #fff;
 }
 
+.bttn-1 {
+  display: none;
+}
+
 .bcolor {
   color: #396df2;
 }
