@@ -194,9 +194,10 @@ function myEmailChecker(event) {
 mySubmit[0].addEventListener('click', myEmailChecker);
 
 let myPreserveData = JSON.parse(localStorage.getItem('data'));
+if(myPreserveData != null) {
 myEmail.value = myPreserveData[0].email;
 myName.value = myPreserveData[0].name;
-
+}
 console.log(myPreserveData)
 mySubmit[0].addEventListener('click', function() {
 let myData = [];
