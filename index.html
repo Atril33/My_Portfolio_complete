@@ -13,13 +13,14 @@
         <header>
             <h1 class="logo">Syed</h1>
             <menu>
-                <ul class="menu_list">
-                    <li class="link_list"><a href="#">Portoflio</a></li>
+                <ul class="menu_list" id="menuitems">
+                    <img src="Images/close_menu.png" alt="Close Menu Icon" id="close_menu">
+                    <li class="link_list"><a href="#portfolio">Portfolio</a></li>
                     <li class="link_list"><a href="#about3">About</a></li>
                     <li class="link_list"><a href="#contact1">Contact</a></li>
                 </ul>
             </menu>
-            <nav>
+            <nav id="menuholder">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -44,7 +45,7 @@
         </div>
     </div>
 </section>
-<section class="Project">
+<section class="Project" id="portfolio">
     <div class="project_one">
       <img src="Images/Image_1.png" alt="Calculator">
       <div class="name_des">
@@ -64,7 +65,8 @@
                 <li class="skill_tab">Html</li>
                 <li class="skill_tab">Javascript</li>
             </ul>
-            <div class="bttn"><a href="#" class="bcolor">See Project</a></div>
+            <div class="bttn">See Project</div>
+            <div class="bttn-1">See Source</div>
        </div>
     </div> 
 </section>
@@ -89,7 +91,8 @@
                 <li class="skill_tab">Html</li>
                 <li class="skill_tab">Javascript</li>
             </ul>
-            <div class="bttn"><a href="#" class="bcolor">See Project</a></div>
+            <div class="bttn">See Project</div>
+            <div class="bttn-1">See Source</div>
        </div>
     </div>
 </section>
@@ -113,7 +116,8 @@
                 <li class="skill_tab">Html</li>
                 <li class="skill_tab">Javascript</li>
             </ul>
-            <div class="bttn"><a href="#" class="bcolor">See Project</a></div>
+            <div class="bttn">See Project</div>
+            <div class="bttn-1">See Source</div>
        </div>
     </div>
 </section>
@@ -137,7 +141,8 @@
                 <li class="skill_tab">Html</li>
                 <li class="skill_tab">Javascript</li>
             </ul>
-         <div class="bttn"><a href="#" class="bcolor">See Project</a></div>
+         <div class="bttn">See Project</div>
+         <div class="bttn-1">See Source</div>
        </div>
     </div>
 </section>
@@ -178,15 +183,16 @@
         <h1 class="contact_me">Contact me</h1>
         <p class="last_par">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
         </div>
-    <form action="https://formspree.io/f/mgeboelg" method="post">
-        <input type="text" maxlength="30" name="name" placeholder="Your Name Here" id="input" required/>
-        <input type="email"  name="email" placeholder="Your Email Here" id="input" required/>
-        <textarea id="textpanel" cols="30" rows="9" maxlength="500"name="message" placeholder="Write Your Message Here" required/></textarea> 
+    <form action="//https://formspree.io/f/mgeboelg" method="post" id="formaction">
+        <input type="text" maxlength="30" name="name" placeholder="Your Name Here" id="input" class="namme" required/>
+        <input type="email"  name="email" placeholder="Your Email Here" id="input" class="emaill" required/>
+        <textarea id="textpanel" cols="30" rows="9" maxlength="500" name="message" placeholder="Write Your Message Here" required/></textarea> 
         <br>
-        <button type="submit" class="submit">Get In Touch</button>
+        <button type="submi" class="submit">Get In Touch</button>
+        <p id="erormessage"></p>
       </form> 
       </div>
   </section>
-
+  <script src="script.js"></script>
 </body>
 </html>
