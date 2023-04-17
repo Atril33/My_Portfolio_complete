@@ -22,35 +22,41 @@ myMenuClose.addEventListener('click', menuClose);
 
 const projectDatiels = [
   {
-    name: 'Tonic',
-    projectStuff: { org: 'CANOPY', type: 'Back End Dev', year: '2017' },
+    name: 'QR Generator',
+    projectStuff: { org: 'Syed', type: 'Front-End Dev', year: '2023' },
     projectImage: 'Images/Image_1.png',
-    projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
-    projectLanguages: ['Css', 'Html', 'Javascript'],
-    projectLive: 'https://atril33.github.io/My_Portfolio_complete/',
-    projectSource: 'https://github.com/Atril33/My_Portfolio_complete/tree/Popup_Windows',
+    projectText: 'QR Code Generator is a website that allows users to generate custom QR codes by entering text or links. Developed using HTML, CSS, and JS, it uses an API for code generation. This project makes it easy for users to create QR codes for their websites, social media profiles, and other links.',
+    projectLanguages: ['HTML', 'CSS', 'JAVASCRIPT'],
+    projectLive: 'https://atril33.github.io/QR_Code_Generator/',
+    projectSource: 'https://github.com/Atril33/QR_Code_Generator',
     liveSource: '<i class="fa-brands fa-github"></i>',
     liveIcons: '<i class="fa-solid fa-arrow-up-right-from-square"></i>',
     liveText: 'See Live',
     sourceText: 'See Source',
   },
   {
-    name: 'Multi-Post Stories',
+    name: 'Math Megican',
     projectImage: 'Images/Image_2.png',
-    projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
-    projectLanguages: ['Css', 'Html', 'Javascript'],
+    projectText: 'Math Megican is a simple app that uses React.js to help with basic math problems. It also has educational quotes that make it fun and engaging for users.',
+    projectLanguages: ['REACT', 'CSS'],
+    projectLive: 'https://math-magicians-71f359xxb-atril33.vercel.app/',
+    projectSource: 'https://github.com/Atril33/math-magicians',
   },
   {
-    name: 'Facebook 360',
+    name: 'Programming Languages',
     projectImage: 'Images/Image_3.png',
-    projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
-    projectLanguages: ['Css', 'Html', 'Javascript'],
+    projectText: 'World Top Languages is a website that shows you information about the most popular computer programming languages in the world and the best developers who use them. The website was made using HTML and CSS, which are computer languages used to create websites..',
+    projectLanguages: ['HTML', 'CSS', 'JAVASCRIPT'],
+    projectLive: 'https://atril33.github.io/World_top_languages/index.html',
+    projectSource: 'https://github.com/Atril33/World_top_languages',
   },
   {
-    name: 'Uber Navigation',
+    name: 'Awesome Books',
     projectImage: 'Images/Image_4.png',
-    projectText: 'A daily selection of privately personalized reads no accounts or sign-ups required.',
-    projectLanguages: ['Css', 'Html', 'Javascript'],
+    projectText: 'In this Awesome Book Project, I utilized my HTML, CSS, and JS skills with advanced syntax (ES6) to create a dynamic website where users can store their book and author names.',
+    projectLanguages: ['HTML', 'CSS', 'JAVASCRIPT'],
+    projectLive: 'https://atril33.github.io/Awesome_books/',
+    projectSource: 'https://github.com/Atril33/Awesome_books',
   },
   {
     closeImage: 'Images/close_menu_black.png',
@@ -106,7 +112,6 @@ projectPop.appendChild(myImage);
 
 const myProjectDes = document.createElement('p');
 myProjectDes.classList = 'myPop_des';
-myProjectDes.innerText = `${projectDatiels[0].projectText}`;
 projectPop.appendChild(myProjectDes);
 
 const ul1 = document.createElement('ul');
@@ -115,7 +120,6 @@ projectPop.appendChild(ul1);
 
 const listLang1 = document.createElement('li');
 listLang1.classList = 'lang_list';
-listLang1.innerText = `${projectDatiels[0].projectLanguages[0]}`;
 ul1.appendChild(listLang1);
 
 const listLang2 = document.createElement('li');
@@ -135,13 +139,11 @@ projectPop.appendChild(myButtons);
 const a = document.createElement('a');
 a.classList = 'pop_button';
 a.innerHTML = `${projectDatiels[0].liveText}  ${projectDatiels[0].liveIcons}`;
-a.href = `${projectDatiels[0].projectLive}`;
 myButtons.appendChild(a);
 
 const a1 = document.createElement('a');
 a1.classList = 'pop_button';
 a1.innerHTML = `${projectDatiels[0].sourceText}  ${projectDatiels[0].liveSource}`;
-a1.href = `${projectDatiels[0].projectSource}`;
 myButtons.appendChild(a1);
 
 const myPopProjects = document.querySelectorAll('.bttn');
@@ -154,6 +156,10 @@ for (let i = 0; i < 4; i += 1) {
       myPopBox.style.display = 'block';
       myImage.src = `${projectDatiels[i].projectImage}`;
       textInner.innerText = `${projectDatiels[i].name}`;
+      myProjectDes.innerText = `${projectDatiels[i].projectText}`;
+      listLang1.innerText = `${projectDatiels[i].projectLanguages[i]}`;
+      a.href = `${projectDatiels[i].projectLive}`;
+      a1.href = `${projectDatiels[i].projectSource}`;
       window.scroll(0, 1);
     } else {
       myPopBox.style.display = 'none';
