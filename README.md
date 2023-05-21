@@ -29,9 +29,6 @@ After you're finished please remove all the comments and instructions!
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
    <h1>Syed Atril</h1>
   <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -254,12 +251,6 @@ If you like this project...
 I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## Preview
-<div align="center">
- <img src="https://lh3.googleusercontent.com/fife/AAbDypB7vIy9eS-KgbCYzr_yirhTV7GeTLGB7Kv4j6nYS-KAoGL-J3UikhSQwPioM45KaOO0USLgtGTa2juqNiUfzOu2A4NZrvOQH-_8DPPOOA5TtH94LWdAc5sna0m0NfPu-ITyxJ2MFlsVn_tsDLu0JQIEQSAD3KZ6Y1r1or1LtLbslMY1vSNZ_Bv1I3lj_ZjIIcuU9bFAIIjlFgkd3dBkzRbx-ORSqyj6AmCezzR0Md_LM__2u0IYoixmqc6ul-wEVMLuzTfvjd5GKx_JP8BUxxEvUQaXpGXmQKXvjF4hskgUg4vMOcNEozV4KGWj2EBJSNScke-6Z9vSspOOxfwj9laN_udnsV5HXEspcqMD_iSkOqmxik3uKhPBQ_KqbZeyUY15WWkxmEZOg7JypGjLotOfmmCo_OFrcDVuGp_bDgXL1EqkXeJpIpRs_3E2FIw1pzPwhnIwNT2XaT06IzHg1PxXxTtlhUF6uQbgXPDXRx5YjRN5YKpSe97sL_Pz7wtf-cgCoXwb9_sLDOuC10YO-qbMPQcFvrAD4iX9haxbJBkHTBZbBISn8rZX_X8RIBF4QCEw7Hsgog1xfrmeS9XsWc5wc1u987-rMhkR4TGJsSwX-x_ad2W-RIOcTFDcrGbS29bfMuQs_tWZTOvSvLlMIRrtCoUY5pesSjnXif_cH2FCN5IDuX5aSM0fUmkNfXTw3FOoBo9T6mC73n-q9pxVEHmpG79tkEmwjvdlGZieqWD1qKHxSSk8hvdd3qPuJF4Vkj7Th9QSuJFrIreRsczxaCI4vERnXr5ELw03rYTU3MxF0BeT1iKj2Tv-PYfNLFtanGDFQIuHSrLuepDG6STQ0m7RIHJfFWaAM4ep7gUV9VIguqNkX1rK8R12Usbt5BUiVfvH69msFLYHXPvk1oC0Qu_ICnH4oWtcgKqyJ0DqUTD190losXDrrQhKnD5ZNNamU6S7gohyMO_I93YGidAsv1a3ZO5W87ufMUKsXEm72dyvh66ziQEUP289ZtY7zev1ahz2wmpFEeOWEuqiNP0y0IsGbhTmwUPov7T9SPe23s4Zp50p75D0Eg86nHU92Rmqt9EXTuylhcPEnLguluAayh7mdJPTLXQz_vu2_UOfssCF11sWNcRFiu8KRSDXhMA9FANGLeyt4hPs8tKxP9H0XDTN0Z1QEH8vlwCjE6cepTB_QqhQBk8W_om12k5I7Wq7acXIXbqfZqg2dqS4_DcdkQkq35cscQ8r7rXo9wkQHHdSedOSkLphldoAA9aphzQ71vGxMMX2nUK_P2MZfPQS8-yVwp94FQKWr4z7SBykW4pg-ZX0j1H8a9GYlogG1GcIyVIR_hPaRTo_ogIWcPpB3QWx4R05NVPVHiYnDrvqE6zgJzs8WhpeTQhegfi2x1fcIC2G1TTmwfEjXwkm-xjtk9YZ5ujP1OvrG72mZ9eXM1JNus_fxEbh_I2XfQyG3Q9T2YgorxC0eY0Fjqhn8Vg=w1366-h617" alt="My project Preview">
-  </div>
 
 <!-- LICENSE -->
 
