@@ -82,12 +82,12 @@ _Check Stylelint errors_
 
 _Check ESLint errors_
 ```sh
-  npx eslint ."
-```[
+  npx eslint .
+```
 
 _Check Webhint errors_
 ```sh
-   npx hint ."
+   npx hint .
 ```
 ### Deployment
 
