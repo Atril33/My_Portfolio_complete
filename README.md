@@ -99,7 +99,6 @@ _Check Webhint errors_
 - GitHub: [@githubhandle](https://github.com/Atril33)
 - Twitter: [@twitterhandle](https://twitter.com/AtrilSyed)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/syed-atril-831696248/)
-- Facebook [Facebook](https://web.facebook.com/profile.php?id=100073724910623)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
