@@ -1,10 +1,4 @@
 <a name="readme-top"></a>
-<div class="preview-image" align="center">
-  <img src="https://github.com/Atril33/My_Portfolio_complete/blob/main/live_preview.png" width="800px"/>
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -24,50 +18,28 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+> This Portfolio page showcases my work and accomplishments, created using HTML, CSS, and JavaScript.
+This Portfolio highlights my skills and projects, demonstrating my proficiency in web development.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/js/">JavaScript</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Responsive Design**
+- **Social Media Accounts**
+- **Personal Projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,9 +47,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://atril33.github.io/My_Portfolio_complete/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
