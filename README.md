@@ -18,7 +18,6 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-
 # 📖 Portfolio <a name="about-project"></a>
 
 > This Portfolio page showcases my work and accomplishments, created using HTML, CSS, and JavaScript.
@@ -47,7 +46,6 @@ This Portfolio highlights my skills and projects, demonstrating my proficiency i
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://atril33.github.io/My_Portfolio_complete/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -56,25 +54,17 @@ This Portfolio highlights my skills and projects, demonstrating my proficiency i
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- A PC with any Browser (Chrome, Opera, & FireFox, etc)
 
 ### Setup
 
 Clone this repository to your desired folder:
+``` bash
+  https://github.com/Atril33/My_Portfolio_complete.git
+```
 
 <!--
 Example commands:
