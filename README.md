@@ -57,7 +57,7 @@ This Portfolio highlights my skills and projects, demonstrating my proficiency i
 ### Prerequisites
 
 In order to run this project you need:
-- A PC with any Browser (Chrome, Opera, & FireFox, etc)
+- **A PC with any Browser (Chrome, Opera, & FireFox, etc)**
 
 ### Setup
 
@@ -66,52 +66,29 @@ Clone this repository to your desired folder:
   https://github.com/Atril33/My_Portfolio_complete.git
 ```
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
 ### Install
-
-Install this project with:
-
-<!--
-Example command:
-
+In order to check tests:
 ```sh
-  cd my-project
-  gem install
+  npm i
 ```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
 
 To run tests, run the following command:
-
-<!--
-Example command:
-
+<br>
+_Check Stylelint errors_
 ```sh
-  bin/rails test test/models/article_test.rb
+  npx stylelint "**/*.{css,scss}"
 ```
---->
 
+_Check ESLint errors_
+```sh
+  npx eslint ."
+```[
+
+_Check Webhint errors_
+```sh
+   npx hint ."
+```
 ### Deployment
 
 You can deploy this project using:
